@@ -1,0 +1,61 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(237, 202, 27);
+    background-image: url(img/pngwing.com.png);
+    background-repeat: repeat;
+    background-size: 300px;
+    color: rgb(5, 94, 30);
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+    margin: 70px 0 50px 0;
+}
+
+main {
+    display:flex;
+}
+
+.tree{
+    width:50%;
+}
+
+.tree img{
+    max-width: 450px;
+}
+
+.timer{
+    width:50%;
+    padding: 0 30px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center
+}
+.timer .timer__block{
+    width:102px;
+    height:120px;
+    background:#fff;
+    box-shadow:0 4px 20px rgba(0,0,0,.25);
+    font-size:16px;
+    font-weight:300;
+    text-align:center
+}
+.timer .timer__block span{
+    display:block;
+    margin-top:20px;
+    margin-bottom:5px;
+    font-size:56px;
+    font-weight:700
+}
