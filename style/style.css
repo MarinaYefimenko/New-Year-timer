@@ -30,6 +30,7 @@ h1 span {
 
 main {
     display:flex;
+    flex-direction: row-reverse;
 }
 
 .tree{
@@ -63,3 +64,49 @@ main {
     font-size:56px;
     font-weight:700
 }
+
+@media(max-width: 1000px){
+    main {
+        display: block;
+    }
+    .timer {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 60%;
+    }
+    .tree{
+        width: 100%;
+    }
+    .tree img{
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media(max-width: 840px){
+    .timer {
+        width: 80%;
+    }
+}
+@media(max-width: 630px){
+    .timer {
+        width: 100%;
+    }
+}
+@media(max-width: 500px){
+    h1 {
+        margin: 40px 0;
+        font-size: 40px;
+    }
+    .tree img {
+        max-width: 350px;
+    }
+}
+@media(max-width: 360px){
+    h1 {
+        font-size: 34px;
+    }
+    .tree img {
+        max-width: 250px;
+    }
+}
+
